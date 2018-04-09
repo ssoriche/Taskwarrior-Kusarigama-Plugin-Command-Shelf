@@ -1,5 +1,8 @@
 package Taskwarrior::Kusarigama::Plugin::Command::Shelf;
 
+#ABSTRACT: Move tasks to and from the shelf.
+#VERSION
+
 use strict;
 use warnings;
 
@@ -69,13 +72,6 @@ sub get {
 
 =encoding UTF-8
 
-=head1 NAME
-
-Taskwarrior::Kusarigama::Plugin::Command::Shelf - Move tasks to and from the shelf.
-
-=head1 VERSION
-
-version 0.0.1
 
 =head1 SYNOPSIS
 
@@ -106,19 +102,6 @@ Without specifying C<get> or C<put> the C<shelf> command defaults to C<put>.
 The C<shelf> commands work with any filtering that is supported by
 L<Taskwarrior|http://taskwarrior.org/>.
 
-=head1 AUTHOR
-
-Shawn Sorichetti <ssoriche@cpan.org>
-
 =head1 ACKNOWLEDGEMENTS
 
 Yanick Champoux for creating the extremely useful L<Taskwarrior::Kusarigama>
-
-=head1 COPYRIGHT AND LICENSE
-
-This software is copyright (c) 2018 by Shawn Sorichetti.
-
-This is free software; you can redistribute it and/or modify it under
-the same terms as the Perl 5 programming language system itself.
-
-=cut
