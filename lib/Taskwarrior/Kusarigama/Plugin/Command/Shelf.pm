@@ -1,7 +1,7 @@
 package Taskwarrior::Kusarigama::Plugin::Command::Shelf;
+our $VERSION = '0.001';
 
 #ABSTRACT: Move tasks to and from the shelf.
-#VERSION
 
 use strict;
 use warnings;
