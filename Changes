@@ -1,4 +1,5 @@
 {{$NEXT}}
+  - Update dist.ini to add copyright and author
 
 0.001     2018-04-11 21:24:20 EDT
   - Initial release
