@@ -1,5 +1,4 @@
-Revision history for {{$dist->name}}
-
 {{$NEXT}}
 
-* Initial release
+0.001     2018-04-11 21:24:20 EDT
+  - Initial release
