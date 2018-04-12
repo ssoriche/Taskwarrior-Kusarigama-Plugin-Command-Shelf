@@ -1,0 +1,39 @@
+=pod
+
+=encoding UTF-8
+
+
+=head1 SYNOPSIS
+
+    # add the `shelf` command
+    $ task-kusarigama add Command::Shelf
+
+    # Shelf all tasks in the Lazy-List project
+    $ task shelf put project:List-Lazy
+
+    # Retreieve all the tasks in the Lazy-List project
+    $ task shelf get project:List-Lazy
+
+    # Individual tasks can be shelved or retrieved
+    $ task shelf 28
+    $ task shelf get 28
+
+    # filter shelved tasks from next report
+    $ task config report.next.filter '!shelved:true status:pending limit:papge'
+
+=head1 DESCRIPTION
+
+Sometimes projects aren't just put on the back burner, they're entirely put on
+hold. For these times the C<shelf> command sets a C<shelved> C<uda> allowing
+those tasks to be filtered out.
+
+Without specifying C<get> or C<put> the C<shelf> command defaults to C<put>.
+
+The C<shelf> commands work with any filtering that is supported by
+L<Taskwarrior|http://taskwarrior.org/>.
+
+=head1 ACKNOWLEDGEMENTS
+
+Yanick Champoux for creating the extremely useful L<Taskwarrior::Kusarigama>
+
+=cut
