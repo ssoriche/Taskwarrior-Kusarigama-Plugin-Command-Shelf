@@ -1,5 +1,5 @@
 package Taskwarrior::Kusarigama::Plugin::Command::Shelf;
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 #ABSTRACT: Move tasks to and from the shelf.
 
