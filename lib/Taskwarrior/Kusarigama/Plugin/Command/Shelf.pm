@@ -27,7 +27,7 @@ sub on_command {
   my $self = shift;
 
   my $args = $self->args;
-  my( $cmd, $query ) = $args =~ /^task\s+shelve(?:\s+(put|get))?\s+(?<query>.*)$/g;
+  my( $cmd, $query ) = $args =~ /^task\s+shelf(?:\s+(put|get))?\s+(?<query>.*)$/g;
 
   $cmd //= 'put';
   die "no task query provided\n" unless $query;
